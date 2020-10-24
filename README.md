@@ -5,7 +5,7 @@ This python script fetches the current temperature from Dark Sky once you have p
 
 It will then print the temperature as an integer
 
-If you add the following code to your bash profile (```.bashrc``` on Fedora) you can get your current temperature by typing ```weather```
+If you add the following code to your bash profile (```.bashrc``` on Fedora) you can get your current temperature (in Fahrenheit) by typing ```weather```
 
 ```bash
 function weather { python ~/Documents/Python/weather/weather.py;}
